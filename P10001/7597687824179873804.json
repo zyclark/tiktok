@@ -1,0 +1,24 @@
+{
+"Check_version":"1.0.0",
+"Max_version":"1.0.0",
+  "ADMode": "ADMode_demo",
+  "ADMode_crazy": {
+  },
+  "ADMode_normal": {
+  },
+  "ADMode_demo": {
+   "home": "rewardedAd,customAd,customAd",#主场景
+   "func_rewardBox": "rewardedAd",#钥匙开启宝箱
+   "func_open": "customAd",#九宫格宝箱弹窗
+   "func_clickReward": "rewardedAd",#疯狂点击
+   "start_game":"rewardedAd",#开始游戏
+   "fail_ui": "customAd",#失败弹窗
+   "show_tip": "rewardedAd",#显示提示
+   "setting_ui": "customAd",#设置弹窗
+   "success_ui": "customAd",#成功弹窗
+   "skip": "rewardedAd",#重试或刷新
+   "retry": "rewardedAd",#跳过
+   "select_ui": "customAd",#选择关卡页面
+   "shop_ui": "customAd",#钥匙商店弹窗
+  }
+ }
