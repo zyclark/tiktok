@@ -1,6 +1,6 @@
 {
-  "Check_version":"1.0.2.3",
-  "Max_version":"1.0.2.3",
+  "Check_version":"1.0.0",
+  "Max_version":"1.0.0",
   "ADMode": "ADMode_demo",
   "TrackVideoCount": 3,
   "TrackPlayerCount": 4,
@@ -9,7 +9,7 @@
   "ADMode_normal": {
   },
   "ADMode_demo": {
-   "timer_ad":"0:timer",#定时弹广告，时间:广告key,<=0不弹
+    "timer_ad":"0:timer",#定时弹广告，时间:广告key,<=0不弹
 	"timer": "customAd",#定时器播放的广告,与timer_ad配合使用
 	"crazy_click_target_value" :80,#快速点击触发广告目标值0-100
 	"auto_close_custom_ad": false,#再次弹原生广告时是否自动关闭上一次原生广告,仅支持OPPO
