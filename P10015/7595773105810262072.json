@@ -1,7 +1,7 @@
 {
-    "Check_version": "1.0.0",
+    "Check_version": "0.0.0",
     "Max_version": "1.0.0",
-    "ADMode": "ADMode_normal",
+    "ADMode": "ADMode_demo",
     "ADModeMaiLiang": "ADMode_MaiLiang",
     "TrackVideoCount": 3, #看了多少次广告进行UC回传
     "TrackPlayerCount": 4, #每几个玩家进行一次UC回传
