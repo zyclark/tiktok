@@ -1,12 +1,29 @@
 {
     "Check_version": "0.0.0",
     "Max_version": "1.0.0",
-    "ADMode": "ADMode_demo",
+    "ADMode": "ADMode_normal",
     "ADModeMaiLiang": "ADMode_MaiLiang",
     "TrackVideoCount": 3, #看了多少次广告进行UC回传
     "TrackPlayerCount": 4, #每几个玩家进行一次UC回传
     "ADMode_crazy": {},
-    "ADMode_normal": {},
+    "ADMode_normal": {
+		"timer_ad": "60:timer", #定时弹广告，时间:广告key,<=0不弹
+        "timer": "customAd", #定时器播放的广告,与timer_ad配合使用
+        "crazy_click_target_value": 80, #快速点击触发广告目标值0-100
+        "auto_close_custom_ad": false, #再次弹原生广告时是否自动关闭上一次原生广告,仅支持OPPO
+        "on_hide": "rewardedAd", #游戏进入后台时触发广告,仅支持OPPO
+        "home": "rewardedAd", #进入游戏直接弹
+        "box_ui": "customAd:0.5:500", #九宫格宝箱界面
+        "box_click": "rewardedAd", #九宫格宝箱看视频开启宝箱
+        "crazy1_ui": "customAd:0.5:500", #疯狂点击界面1
+        "crazy_click1": "rewardedAd", #疯狂点击中1误触
+        "crazy2_ui": "customAd:0.5:500", #疯狂点击界面2
+        "crazy_click2": "rewardedAd", #疯狂点击中2误触
+        "func_clickReward": "rewardedAd", #疯狂点击
+		"fail_ui": "customAd",#失败
+		"result_ui": "customAd",#过关
+		"start_game": "rewardedAd",#开始游戏
+	},
     "ADMode_demo": {
         "timer_ad": "0:timer", #定时弹广告，时间:广告key,<=0不弹
         "timer": "customAd", #定时器播放的广告,与timer_ad配合使用
