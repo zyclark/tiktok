@@ -29,9 +29,9 @@
         "start_game": "rewardedAd",#开始游戏
 		"restart_game": "rewardedAd",#重新开始游戏
 		"success_ui": "rewardedAd",#胜利界面
+		"fail_ui": "customAd",#失败界面
 		"skin_ui": "rewardedAd",#皮肤
 		"levelList_ui": "rewardedAd",#关卡
-		"collect_ui": "rewardedAd",#收藏
 		"theme_ui": "rewardedAd",#主题
     },
     "ADMode_MaiLiang": {
