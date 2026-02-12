@@ -8,7 +8,7 @@
     "ADMode_crazy": {},
     "ADMode_normal": {
 		"customAd_cd":"60",#原生或插屏广告间隔，当前仅对tt有效
-		"success_ui": "customAd",#胜利界面
+		"win_ui": "customAd",#胜利界面
 		"fail_ui": "customAd",#失败界面
 	},
     "ADMode_demo": {
@@ -27,13 +27,10 @@
         "crazy_click2": "rewardedAd", #疯狂点击中2误触
         "set_ui": "customAd", #设置界面,
         "func_clickReward": "rewardedAd", #疯狂点击
-        "start_game": "rewardedAd",#开始游戏
-		"restart_game": "rewardedAd",#重新开始游戏
-		"success_ui": "rewardedAd",#胜利界面
+		"win_ui": "customAd",#胜利界面
 		"fail_ui": "customAd",#失败界面
-		"skin_ui": "rewardedAd",#皮肤
-		"levelList_ui": "rewardedAd",#关卡
-		"theme_ui": "rewardedAd",#主题
+		"tip_ui": "customAd",#提示界面
+		"tili_ui": "customAd",#体力界面
     },
     "ADMode_MaiLiang": {
         "home": "rewardedAd,rewardedAd,rewardedAd", #主场景
