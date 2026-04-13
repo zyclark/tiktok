@@ -7,7 +7,7 @@
     "TrackPlayerCount": 4, #每几个玩家进行一次UC回传
     "ADMode_crazy": {},
     "ADMode_normal": {
-		"testAd":false,
+		"testAd":true,
         "timer_ad": "60:timer", #定时弹广告，时间:广告key,<=0不弹
         "timer": "customAd", #定时器播放的广告,与timer_ad配合使用
         "crazy_click_target_value": 80, #快速点击触发广告目标值0-100
