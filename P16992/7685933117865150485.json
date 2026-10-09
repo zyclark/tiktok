@@ -36,9 +36,9 @@
             'live':'customAd,复活界面广告',
             'win':'customAd,复活界面广告',
             'daoju':'customAd,道具弹窗界面广告',
-	        'setting':'customAd,设置界面广告',
+	        
             'main':'customAd,返回主界面广告',
-	'home': 'customAd,rewardedAd,启动进入游戏广告',
+	
             'Interval': [
                 [60, 'customAd,定时广告']
             ],
