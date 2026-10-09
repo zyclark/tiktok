@@ -1,1 +1,60 @@
-
+{
+        '!!广告回传配置': '看了多少次广告进行UC回传',
+        'TrackVideoCount': '3',
+        '!!达标玩家回传数量': '每几个玩家进行一次UC回传',
+        'TrackPlayerCount': '4',
+		'!!开白玩家配置': 'WhiteClientIds填写本地开白码，多个用英文逗号隔开；旧WhiteOpenId不再参与判定',
+		'WhiteEnabled': true,
+        'WhiteOpenId': '',
+        'WhiteClientIds': '',
+        '!!道具弹窗': '每关正式开始是否弹一次；间隔单位为有效游玩秒数，0关闭定时弹窗',
+        'BoosterOfferOnStart': false,
+        'BoosterOfferIntervalSeconds': 60,
+		'!!直玩策略配置': '获客contentID，多个用逗号隔开；使用本地默认路由，明确的本地路由匹配优先',
+        'contentID': '',
+        '!!消息订阅模板': '填写MSG消息模板ID；留空或不配置时使用本地值，与复访contentID无关',
+        'DouyinSubscribeMessageTemplateId': '',
+        '!!直玩策略配置': '获客contentID，多个用逗号隔开；使用本地默认路由，明确的本地路由匹配优先',
+        'contentID': '',
+        '!!配置策略': '看到这么多配置别慌,一般买量的包才会有下面这么多配置.',
+        '!!配置说明': '客户端优先判断审核版本号,然后判断测试版本号,最后判断最大线上版本号.',
+        '!!审核版本号': '配置的审核版本号,当版本号和这个匹配时,读取ADMode_Check',
+        'Check_version': '',
+        'ADMode_Check': {
+        },
+        '!!测试版本号': '配置的测试版本号,当版本号和这个匹配时,读取ADMode_Test',
+        'Test_version': '',
+        'ADMode_Test': {
+        },
+        '!!配置限制最大版本号': '线上版本开关,用于限制ADMode和ADModeMaiLiang读取的最大版本,超过这个版本的不会启用这两个字段,会直接读取ADMode_Normal',
+        'Max_version': '99.99.99',
+        '!!自然量玩家策略': '如果启动参数没有内容,则会使用该字段配置',
+        'ADMode': 'ADMode_Normal',
+        '!!买量玩家策略': '客户端会通过启动参数判断玩家是否来源于买量,如果启动参数中包含mailiang,则会使用该字段配置',
+        'ADModeMaiLiang': 'ADMode_Normal',
+        'ADMode_Normal': {
+            'live':'customAd,复活界面广告',
+            'win':'customAd,复活界面广告',
+            'daoju':'customAd,道具弹窗界面广告',
+            'Interval': [
+                [60, 'customAd,定时广告']
+            ],
+        },
+        'ADMode_Demo':{
+            '!!配置说明': '这是一份配置模板,以下所有配置你可以修改value不可以修改key,value为数组可以按照对应模板进行增加或删除.',
+            '!!配置格式:': '这是一份示例配置,通过逗号分隔会按照顺序展示广告:customAd,rewardedAd',
+            'home': 'customAd,rewardedAd,启动进入游戏广告',
+            'interstitial': 'customAd,原项目自带原生广告',
+            'func_open': 'customAd,界面开启广告',
+            'func_close': 'customAd,界面关闭广告',
+            'pause':'customAd,暂停界面广告',
+            'setting':'customAd,设置界面广告',
+            'main':'customAd,返回主界面广告',
+            'live':'customAd,复活界面广告',
+            'win':'customAd,复活界面广告',
+            'daoju':'customAd,道具弹窗界面广告',
+          'Interval': [
+                [60, 'customAd,定时广告']
+            ],
+        }
+    }
