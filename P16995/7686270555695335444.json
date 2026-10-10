@@ -48,8 +48,6 @@
             'live':'rewardedAd,复活界面广告',
             'win':'rewardedAd,复活界面广告',
             'daoju':'rewardedAd,道具弹窗界面广告',
-            'Interval': [
-                [60, 'rewardedAd,定时广告']
-            ],
+           
         }
     }
