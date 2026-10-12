@@ -38,16 +38,16 @@
         'ADMode_Demo':{
             '!!配置说明': '这是一份配置模板,以下所有配置你可以修改value不可以修改key,value为数组可以按照对应模板进行增加或删除.',
             '!!配置格式:': '这是一份示例配置,通过逗号分隔会按照顺序展示广告:customAd,rewardedAd',
-            'home': 'rewardedAd,rewardedAd,启动进入游戏广告',
-            'interstitial': 'rewardedAd,原项目自带原生广告',
-            'func_open': 'rewardedAd,界面开启广告',
-            'func_close': 'rewardedAd,界面关闭广告',
-            'pause':'rewardedAd,暂停界面广告',
-            'setting':'rewardedAd,设置界面广告',
-            'main':'rewardedAd,返回主界面广告',
-            'live':'rewardedAd,复活界面广告',
-            'win':'rewardedAd,复活界面广告',
-            'daoju':'rewardedAd,道具弹窗界面广告',
+            'home': 'customAd,rewardedAd,启动进入游戏广告',
+            'interstitial': 'customAd,原项目自带原生广告',
+            'func_open': 'customAd,界面开启广告',
+            'func_close': 'customAd,界面关闭广告',
+            'pause':'customAd,暂停界面广告',
+            'setting':'customAd,设置界面广告',
+            'main':'customAd,返回主界面广告',
+            'live':'customAd,复活界面广告',
+            'win':'customAd,复活界面广告',
+            'daoju':'customAd,道具弹窗界面广告',
            
         }
     }
