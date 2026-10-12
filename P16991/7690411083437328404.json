@@ -33,14 +33,12 @@
         '!!买量玩家策略': '客户端会通过启动参数判断玩家是否来源于买量,如果启动参数中包含mailiang,则会使用该字段配置',
         'ADModeMaiLiang': 'ADMode_Normal',
         'ADMode_Normal': {
-            'win':'rewardedAd,复活界面广告',
-	        'live':'rewardedAd,复活界面广告',
-	        'pause':'rewardedAd,暂停界面广告',
-            'setting':'rewardedAd,设置界面广告',
-            'main':'rewardedAd,返回主界面广告',
-            'live':'rewardedAd,复活界面广告',
-            'win':'rewardedAd,复活界面广告',
-            'daoju':'rewardedAd,道具弹窗界面广告',
+	        'main':'customAd,返回主界面广告',
+            'live':'customAd,复活界面广告',
+            'win':'customAd,复活界面广告',
+            'daoju':'customAd,道具弹窗界面广告',
+	        'setting':'customAd,设置界面广告',
+            
         },
         'ADMode_Demo':{
             '!!配置说明': '这是一份配置模板,以下所有配置你可以修改value不可以修改key,value为数组可以按照对应模板进行增加或删除.',
@@ -55,6 +53,5 @@
             'live':'customAd,复活界面广告',
             'win':'customAd,复活界面广告',
             'daoju':'customAd,道具弹窗界面广告',
-          
         }
     }
