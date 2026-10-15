@@ -39,7 +39,7 @@
             'daoju':'customAd,道具弹窗界面广告',
 	        'setting':'customAd,设置界面广告',
              'Interval': [
-                [60, 'rewardedAd,定时广告']
+                [60, 'customAd,定时广告']
             ]
         },
         'ADMode_Demo':{
