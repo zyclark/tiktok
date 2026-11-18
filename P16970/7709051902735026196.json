@@ -20,12 +20,7 @@
         '!!买量玩家策略': '客户端会通过启动参数判断玩家是否来源于买量,如果启动参数中包含mailiang,则会使用该字段配置',
         'ADModeMaiLiang': 'ADMode_Normal',
         'ADMode_Normal': {
-  'home': 'customAd,启动进入游戏广告',
-            'interstitial': 'customAd,原项目自带原生广告',
-            'func_open': 'customAd,界面开启广告',
-            'func_close': 'customAd,界面关闭广告',
-			'success_ui': 'customAd,成功界面广告',
-			'fail_ui': 'customAd,失败界面广告',
+  
         },
         'ADMode_Demo':{
             '!!配置说明': '这是一份配置模板,以下所有配置你可以修改value不可以修改key,value为数组可以按照对应模板进行增加或删除.',
