@@ -34,11 +34,7 @@
             'live':'customAd,复活界面广告',
             'win':'customAd,复活界面广告',
             'daoju':'customAd,道具弹窗界面广告',            
-            'Interval': [
-                [60, 'customAd,定时广告']
-            ],
-            'success_ui':'customAd,道具弹窗界面广告',
-            'fail_ui':'customAd,道具弹窗界面广告',
+            
         },
         'ADMode_Demo':{
             '!!配置说明': '这是一份配置模板,以下所有配置你可以修改value不可以修改key,value为数组可以按照对应模板进行增加或删除.',
@@ -53,6 +49,11 @@
             'live':'customAd,复活界面广告',
             'win':'customAd,复活界面广告',
             'daoju':'customAd,道具弹窗界面广告',
+            'success_ui':'customAd,道具弹窗界面广告',
+            'fail_ui':'customAd,道具弹窗界面广告',
+			'Interval': [
+                [60, 'customAd,定时广告']
+            ],
             'success_ui':'customAd,道具弹窗界面广告',
             'fail_ui':'customAd,道具弹窗界面广告',
 
